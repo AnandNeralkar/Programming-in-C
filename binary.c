@@ -9,7 +9,6 @@ unsigned int num;
 printf("Enter Decimal Number : ");
 scanf("%u",&num);
 binary(num);  
-
 }
 
 void binary(unsigned int num)
