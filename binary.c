@@ -1,5 +1,4 @@
 #include<stdio.h>
-
  
 void binary(unsigned int);   // Prototype Declaration
  
@@ -10,7 +9,6 @@ printf("Enter Decimal Number : ");
 scanf("%u",&num);
 binary(num);  
 }
-
 void binary(unsigned int num)
 {
 unsigned int mask=32768;   //mask = [1000 0000 0000 0000]
